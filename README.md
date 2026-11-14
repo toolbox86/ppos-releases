@@ -32,13 +32,15 @@
 
 Giá tính theo cửa hàng, không tính theo người dùng, không phí ẩn:
 
-| Gói | Theo tháng | Theo năm | Mua vĩnh viễn |
-|---|---|---|---|
-| **Free** | 0đ | 0đ | 0đ — miễn phí vĩnh viễn |
-| **Pro** | 149.000đ/tháng | 1.490.000đ/năm | 4.990.000đ — trả một lần |
-| **Business** | 249.000đ/tháng | 2.490.000đ/năm | 7.990.000đ — trả một lần |
+| Gói | Giá |
+|---|---|
+| **Free** | 0đ — miễn phí vĩnh viễn |
+| **Pro** | 4.990.000đ — mua vĩnh viễn, trả một lần |
+| **Business** | 7.990.000đ — mua vĩnh viễn, trả một lần |
 
-> Cam kết: hết hạn gói thuê bao **không khóa đột ngột** — tính năng trả phí tạm dừng, bạn vẫn bán bình thường bằng gói Free; dữ liệu luôn nằm trên máy tính của quán và xuất ra file được bất cứ lúc nào. Gói mua vĩnh viễn: dùng trọn đời, hỗ trợ kỹ thuật vĩnh viễn.
+PPOS chỉ bán **vĩnh viễn** (từ 14/11/2026): mua một lần, dùng trọn đời, mọi bản cập nhật về sau vẫn giữ nguyên gói — không bán theo tháng/năm, không phí duy trì hằng năm. Có **dùng thử Business 14 ngày miễn phí** (liên hệ Zalo ở trang giới thiệu).
+
+> Cam kết: gói mua vĩnh viễn **không bao giờ hết hạn** — phần mềm không bị khóa vì hết hạn gói; dữ liệu luôn nằm trên máy tính của quán và xuất ra file được bất cứ lúc nào. Hỗ trợ kỹ thuật vĩnh viễn.
 
 Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://ppos-landing.vercel.app/bang-gia).
 
