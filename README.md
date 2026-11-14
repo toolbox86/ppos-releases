@@ -2,12 +2,18 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.23-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.24-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
-- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.23.exe`.
+- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.24.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
+
+## 🆕 Có gì mới trong bản v2.24
+
+- **Mã bản quyền gắn theo máy tính quầy:** mỗi mã chỉ mở gói trên đúng máy tính của quán (nhận diện bằng dấu vân tay phần cứng của máy quầy) — chép mã sang máy khác không dùng được nữa. Đổi máy vẫn được **chuyển bản quyền miễn phí**: gửi mã máy mới cho nơi bán, nhận mã mới nhập lại là xong.
+- **Chỉ bán vĩnh viễn:** PPOS không còn bán theo tháng/năm — Free dùng mãi, Pro và Business mua một lần dùng trọn đời, giữ nguyên gói qua mọi bản cập nhật.
+- **Vá bảo mật sau đợt kiểm toán toàn diện:** bịt lỗi rò số liệu báo cáo theo người bán ở gói Free/Pro, thêm điểm kiểm tra bản quyền độc lập tại các tính năng trả phí, siết giới hạn đăng nhập tài khoản khách.
 
 ## Vì sao chủ quán chọn PPOS?
 
@@ -35,8 +41,8 @@ Giá tính theo cửa hàng, không tính theo người dùng, không phí ẩn:
 | Gói | Giá |
 |---|---|
 | **Free** | 0đ — miễn phí vĩnh viễn |
-| **Pro** | 4.990.000đ — mua vĩnh viễn, trả một lần |
-| **Business** | 7.990.000đ — mua vĩnh viễn, trả một lần |
+| **Pro** | 3.990.000đ — mua vĩnh viễn, trả một lần |
+| **Business** | 4.990.000đ — mua vĩnh viễn, trả một lần |
 
 PPOS chỉ bán **vĩnh viễn** (từ 14/11/2026): mua một lần, dùng trọn đời, mọi bản cập nhật về sau vẫn giữ nguyên gói — không bán theo tháng/năm, không phí duy trì hằng năm. Có **dùng thử Business 14 ngày miễn phí** (liên hệ Zalo ở trang giới thiệu).
 
@@ -46,7 +52,7 @@ Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://p
 
 ## Cài đặt trong 3 bước
 
-1. **Tải** file `PPOS-v2.23.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
+1. **Tải** file `PPOS-v2.24.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
 2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
 3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
 
