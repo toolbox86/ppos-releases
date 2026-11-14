@@ -63,6 +63,10 @@ PPOS là phần mềm được **phát triển độc lập**. Trong quá trình
 >
 > **™️ Về nhãn hiệu:** "ERPNext" là nhãn hiệu của **Frappe Technologies Pvt. Ltd.** PPOS không phải là sản phẩm của Frappe và không được Frappe bảo trợ hay chứng thực.
 
+## ⚖️ Bản quyền & điều khoản sử dụng
+
+PPOS là phần mềm thương mại **© 2026 Nguyễn Tấn Phát** — **không phải phần mềm mã nguồn mở**. Người dùng được tải, cài đặt và sử dụng PPOS theo phạm vi gói bản quyền của mình (Free / Pro / Business); nghiêm cấm sao chép, phân phối lại, dịch ngược và vô hiệu hóa cơ chế bản quyền. Toàn văn điều khoản: xem file [LICENSE](LICENSE).
+
 ## Hỗ trợ
 
 - 💬 Zalo: **0986 495 913**
@@ -73,3 +77,5 @@ PPOS là phần mềm được **phát triển độc lập**. Trong quá trình
 ---
 
 *Kho này chỉ chứa các bản phát hành của PPOS để tải về — không chứa mã nguồn của phần mềm.*
+
+© 2026 Nguyễn Tấn Phát — PPOS · Bảo lưu mọi quyền.
