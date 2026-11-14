@@ -48,6 +48,21 @@ Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://p
 2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
 3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
 
+## 📚 Nguồn tham khảo & ghi công
+
+PPOS là phần mềm được **phát triển độc lập**. Trong quá trình xây dựng, danh mục tính năng của PPOS đã được đối chiếu và tham khảo từ **ERPNext** — một trong những hệ thống ERP mã nguồn mở phổ biến nhất thế giới — để bảo đảm bao quát đầy đủ nghiệp vụ bán hàng, kho và nhân sự cho cửa hàng nhỏ (đợt kiểm tra chất lượng đối soát 69 tính năng). PPOS **không sao chép mã nguồn của ERPNext** — phần ghi công này là lời cảm ơn dành cho nguồn tham khảo tính năng đó.
+
+| 🔗 Nguồn tham khảo | Liên kết |
+|---|---|
+| 🌐 Trang chủ ERPNext | [erpnext.com](https://erpnext.com) |
+| 💻 Mã nguồn ERPNext trên GitHub | [github.com/frappe/erpnext](https://github.com/frappe/erpnext) |
+| 🏢 Đơn vị phát triển — Frappe | [frappe.io](https://frappe.io) |
+| 📜 Giấy phép GNU GPL v3 (toàn văn) | [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html) |
+
+> **⚖️ Về giấy phép:** ERPNext được phân phối theo giấy phép **GNU GPL v3**. PPOS tôn trọng giấy phép này và thực hiện ghi công cho phần tham khảo tính năng nêu trên. Vì PPOS không sao chép mã nguồn ERPNext, mã nguồn của PPOS không thuộc phạm vi điều chỉnh của GNU GPL v3.
+>
+> **™️ Về nhãn hiệu:** "ERPNext" là nhãn hiệu của **Frappe Technologies Pvt. Ltd.** PPOS không phải là sản phẩm của Frappe và không được Frappe bảo trợ hay chứng thực.
+
 ## Hỗ trợ
 
 - 💬 Zalo: **0986 495 913**
