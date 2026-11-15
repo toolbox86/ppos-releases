@@ -2,18 +2,20 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.24-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.26-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
-- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.24.exe`.
+- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.26.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.24
+## 🆕 Có gì mới trong bản v2.26
 
-- **Mã bản quyền gắn theo máy tính quầy:** mỗi mã chỉ mở gói trên đúng máy tính của quán (nhận diện bằng dấu vân tay phần cứng của máy quầy) — chép mã sang máy khác không dùng được nữa. Đổi máy vẫn được **chuyển bản quyền miễn phí**: gửi mã máy mới cho nơi bán, nhận mã mới nhập lại là xong.
-- **Chỉ bán vĩnh viễn:** PPOS không còn bán theo tháng/năm — Free dùng mãi, Pro và Business mua một lần dùng trọn đời, giữ nguyên gói qua mọi bản cập nhật.
-- **Vá bảo mật sau đợt kiểm toán toàn diện:** bịt lỗi rò số liệu báo cáo theo người bán ở gói Free/Pro, thêm điểm kiểm tra bản quyền độc lập tại các tính năng trả phí, siết giới hạn đăng nhập tài khoản khách.
+- **Bản quyền & Cập nhật gộp một chỗ:** thẻ chứng nhận bản quyền đen/vàng sang trọng trong một khung duy nhất, kèm mục hỏi đáp mở–đóng dễ tra cứu.
+- **Tab Hỗ trợ ngay trong phần mềm:** cần giúp là gửi yêu cầu hỗ trợ ngay tại Cài đặt → Hỗ trợ, nhận trả lời và nhắn tiếp ngay trong phần mềm — không phải chụp màn hình gửi qua nơi khác.
+- **Cập nhật hiện tiến trình thật:** khi có bản mới, phần mềm hiện rõ từng bước (tải về bao nhiêu %, kiểm tra, cài đặt) thay vì chờ im lặng.
+- **Thông báo Windows khi có phiên bản mới:** máy quầy tự bật thông báo khi có bản mới, mỗi bản chỉ báo một lần.
+- **Lưu ý:** bản này cần **tải file `PPOS-v2.26.exe`** bên dưới và mở như thường (dữ liệu bán hàng giữ nguyên tuyệt đối) vì có thêm thành phần thông báo của Windows. Từ bản sau, phần mềm lại tự cập nhật ngay trong máy như đã hứa.
 
 ## Vì sao chủ quán chọn PPOS?
 
@@ -52,7 +54,7 @@ Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://p
 
 ## Cài đặt trong 3 bước
 
-1. **Tải** file `PPOS-v2.24.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
+1. **Tải** file `PPOS-v2.26.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
 2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
 3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
 
