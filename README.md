@@ -2,20 +2,21 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.26-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.27-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
-- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.26.exe`.
+- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.27.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.26
+## 🆕 Có gì mới trong bản v2.27
 
-- **Bản quyền & Cập nhật gộp một chỗ:** thẻ chứng nhận bản quyền đen/vàng sang trọng trong một khung duy nhất, kèm mục hỏi đáp mở–đóng dễ tra cứu.
-- **Tab Hỗ trợ ngay trong phần mềm:** cần giúp là gửi yêu cầu hỗ trợ ngay tại Cài đặt → Hỗ trợ, nhận trả lời và nhắn tiếp ngay trong phần mềm — không phải chụp màn hình gửi qua nơi khác.
-- **Cập nhật hiện tiến trình thật:** khi có bản mới, phần mềm hiện rõ từng bước (tải về bao nhiêu %, kiểm tra, cài đặt) thay vì chờ im lặng.
-- **Thông báo Windows khi có phiên bản mới:** máy quầy tự bật thông báo khi có bản mới, mỗi bản chỉ báo một lần.
-- **Lưu ý:** bản này cần **tải file `PPOS-v2.26.exe`** bên dưới và mở như thường (dữ liệu bán hàng giữ nguyên tuyệt đối) vì có thêm thành phần thông báo của Windows. Từ bản sau, phần mềm lại tự cập nhật ngay trong máy như đã hứa.
+- **Điện thoại kết nối đúng địa chỉ Wi-Fi của quán:** máy quầy có thêm card mạng ảo (WSL/Hyper-V…) không còn làm phần mềm hiện nhầm địa chỉ ở mục ghép nối nữa — luôn hiện đúng địa chỉ Wi-Fi thật; tên ppos.local cũng phát trên đúng card mạng đó.
+- **Đăng nhập trên điện thoại với PIN 5–6 số:** gõ đủ PIN rồi bấm nút ✓ là vào — PIN 4, 5 hay 6 số đều được, hết cảnh PIN đúng mà bị báo sai oan.
+- **Sổ nhật ký được khóa cứng:** máy chủ trong quán chỉ cho ghi thêm vào sổ nhật ký, không sửa hay xóa được dòng cũ; dữ liệu lương, chấm công, tạm ứng chỉ tài khoản có quyền Nhân viên mới sửa được qua điện thoại.
+- **Chống dò PIN đồng bộ mọi đường:** gõ sai PIN ở bàn phím máy quầy, ở điện thoại hay ở ô mở khóa khu vực quản trị đều đếm chung — sai 5 lần là khóa 5 phút; khu vực quản trị tự khóa lại khi khóa màn hình, đổi người đăng nhập hoặc sau 10 phút không thao tác.
+- **Khóa chặt phân quyền:** chốt không cho quán tự khóa mất quản lý cuối cùng, "Xóa hết dữ liệu" và "Gộp dữ liệu" phải qua PIN quản lý, không tạo được hai tài khoản trùng tên, xóa tài khoản là rút luôn điện thoại đã gán, vai "Chỉ xem" không gửi được lệnh in.
+- **Lưu ý:** máy đang ở bản 2.26 **không cần tải lại file exe** — vào Cài đặt → Bản quyền & Cập nhật, bấm **"Cập nhật ngay"** là phần mềm tự lên 2.27. Riêng máy còn ở bản 2.25 trở xuống thì tải file `PPOS-v2.27.exe` bên dưới và mở như thường (dữ liệu bán hàng giữ nguyên tuyệt đối).
 
 ## Vì sao chủ quán chọn PPOS?
 
@@ -54,7 +55,7 @@ Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://p
 
 ## Cài đặt trong 3 bước
 
-1. **Tải** file `PPOS-v2.26.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
+1. **Tải** file `PPOS-v2.27.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
 2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
 3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
 
