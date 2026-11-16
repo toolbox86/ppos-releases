@@ -2,19 +2,18 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.29-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.30-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.29
+## 🆕 Có gì mới trong bản v2.30
 
-- **Từ nay chỉ một tên file duy nhất: `PPOS.exe`** — không còn số phiên bản trong tên file. Trước đây file tải về tên kiểu `PPOS-v2.27.exe`, nhưng phần mềm tự cập nhật lên bản mới hơn thì tên file vẫn ghi bản cũ, rất dễ nhầm. Từ nay tên file đứng yên là `PPOS.exe`; muốn xem đang ở bản nào thì mở phần mềm, mục **Bản quyền & Cập nhật** luôn hiện đúng phiên bản đang dùng.
-- **Phần mềm tự sửa tên file nếu lỡ lưu sai:** nếu ai lưu file với tên có số phiên bản (kiểu `PPOS-v2.29.exe`) thì khi mở lên, phần mềm tự đổi về đúng tên `PPOS.exe`.
-- **Bản này cần tải file exe một lần cuối** — kể cả máy đang ở bản 2.26–2.28 (phần mềm sẽ hướng dẫn tải), vì bản này thay đổi ở phần vỏ Windows. Tải `PPOS.exe`, đóng hẳn PPOS đang mở rồi mở file mới — **dữ liệu bán hàng giữ nguyên tuyệt đối**. Từ 2.29 trở đi, các bản sau lại cập nhật ngay trong app như bình thường.
-- File cũ tên `PPOS-v2.2x.exe` còn trong máy: sau khi mở `PPOS.exe` chạy ổn thì xóa đi cho gọn cũng được (không bắt buộc).
+- **Vá lỗi "tải bản mới mà mở lên vẫn bản cũ":** file `PPOS.exe` bản 2.29 tải về là đúng bản 2.29, nhưng máy nào từng bấm "Cập nhật ngay" trong phần mềm thì trong máy còn lưu một lớp phần mềm cũ — khi mở file exe mới, phần mềm lại lấy lớp cũ đã lưu ra chạy nên nhìn như vẫn bản cũ. Bản 2.30 sửa đúng điểm này: khi khởi động, phần mềm so sánh lớp đã lưu với lớp đi kèm file exe, **lớp nào mới hơn thì chạy lớp đó**, lớp cũ lỗi thời tự dọn sạch.
+- **Cách lên 2.30:** tải file `PPOS.exe`, đóng hẳn PPOS đang mở rồi mở file mới — **dữ liệu bán hàng giữ nguyên tuyệt đối**. Đây là lần tải exe cuối cùng cho việc thay đổi phần vỏ (đã hẹn từ 2.29, phải thêm lần này vì chính lỗi trên khiến 2.29 chưa tới được các máy đã tự cập nhật); từ 2.30 trở đi các bản sau lại cập nhật ngay trong app như bình thường.
+- **Tên file vẫn là `PPOS.exe`** — chuẩn đặt từ bản 2.29: tên file không còn số phiên bản, phần mềm tự sửa tên về `PPOS.exe` nếu ai lỡ lưu với tên có số phiên bản.
 
 ## Vì sao chủ quán chọn PPOS?
 
