@@ -2,18 +2,19 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.28-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.29-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
-- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS-v2.28.exe`.
+- **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.28
+## 🆕 Có gì mới trong bản v2.29
 
-- **Bỏ hẳn tên ppos.local — mục "Điện thoại bán cùng" chỉ còn một địa chỉ duy nhất:** trước đây mục ghép nối hiện tới hai địa chỉ (tên `ppos.local` và địa chỉ số dự phòng), vừa gây rối vừa hay bị hỏi, mà tên `ppos.local` thực tế lại không mở được trên một số điện thoại (nhất là iPhone). Nay phần mềm chỉ hiện **một địa chỉ duy nhất: địa chỉ IP của máy quầy kèm mã QR** — điện thoại nối cùng Wi-Fi của quán, quét mã là mở được ngay.
-- **Điện thoại đang bán chung không bị ảnh hưởng:** máy nào đã ghép nối và đang mở bằng địa chỉ IP (dạng `192.168.x.x`) thì cứ dùng tiếp như cũ, không phải ghép nối lại, không mất phiên đăng nhập.
-- **Lưu ý:** máy đang ở bản 2.26 hoặc 2.27 **không cần tải lại file exe** — vào Cài đặt → Bản quyền & Cập nhật, bấm **"Cập nhật ngay"** là phần mềm tự lên 2.28. Riêng máy còn ở bản 2.25 trở xuống thì tải file `PPOS-v2.28.exe` và mở như thường (dữ liệu bán hàng giữ nguyên tuyệt đối).
+- **Từ nay chỉ một tên file duy nhất: `PPOS.exe`** — không còn số phiên bản trong tên file. Trước đây file tải về tên kiểu `PPOS-v2.27.exe`, nhưng phần mềm tự cập nhật lên bản mới hơn thì tên file vẫn ghi bản cũ, rất dễ nhầm. Từ nay tên file đứng yên là `PPOS.exe`; muốn xem đang ở bản nào thì mở phần mềm, mục **Bản quyền & Cập nhật** luôn hiện đúng phiên bản đang dùng.
+- **Phần mềm tự sửa tên file nếu lỡ lưu sai:** nếu ai lưu file với tên có số phiên bản (kiểu `PPOS-v2.29.exe`) thì khi mở lên, phần mềm tự đổi về đúng tên `PPOS.exe`.
+- **Bản này cần tải file exe một lần cuối** — kể cả máy đang ở bản 2.26–2.28 (phần mềm sẽ hướng dẫn tải), vì bản này thay đổi ở phần vỏ Windows. Tải `PPOS.exe`, đóng hẳn PPOS đang mở rồi mở file mới — **dữ liệu bán hàng giữ nguyên tuyệt đối**. Từ 2.29 trở đi, các bản sau lại cập nhật ngay trong app như bình thường.
+- File cũ tên `PPOS-v2.2x.exe` còn trong máy: sau khi mở `PPOS.exe` chạy ổn thì xóa đi cho gọn cũng được (không bắt buộc).
 
 ## Vì sao chủ quán chọn PPOS?
 
@@ -52,7 +53,7 @@ Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://p
 
 ## Cài đặt trong 3 bước
 
-1. **Tải** file `PPOS-v2.28.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
+1. **Tải** file `PPOS.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
 2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
 3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
 
