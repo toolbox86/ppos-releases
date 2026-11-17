@@ -2,18 +2,23 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.30-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.31-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.30
+## 🆕 Có gì mới trong bản v2.31
 
-- **Vá lỗi "tải bản mới mà mở lên vẫn bản cũ":** file `PPOS.exe` bản 2.29 tải về là đúng bản 2.29, nhưng máy nào từng bấm "Cập nhật ngay" trong phần mềm thì trong máy còn lưu một lớp phần mềm cũ — khi mở file exe mới, phần mềm lại lấy lớp cũ đã lưu ra chạy nên nhìn như vẫn bản cũ. Bản 2.30 sửa đúng điểm này: khi khởi động, phần mềm so sánh lớp đã lưu với lớp đi kèm file exe, **lớp nào mới hơn thì chạy lớp đó**, lớp cũ lỗi thời tự dọn sạch.
-- **Cách lên 2.30:** tải file `PPOS.exe`, đóng hẳn PPOS đang mở rồi mở file mới — **dữ liệu bán hàng giữ nguyên tuyệt đối**. Đây là lần tải exe cuối cùng cho việc thay đổi phần vỏ (đã hẹn từ 2.29, phải thêm lần này vì chính lỗi trên khiến 2.29 chưa tới được các máy đã tự cập nhật); từ 2.30 trở đi các bản sau lại cập nhật ngay trong app như bình thường.
-- **Tên file vẫn là `PPOS.exe`** — chuẩn đặt từ bản 2.29: tên file không còn số phiên bản, phần mềm tự sửa tên về `PPOS.exe` nếu ai lỡ lưu với tên có số phiên bản.
+Bản vá **độ bền dữ liệu và bảo vệ tài khoản** — gom các lỗi do một đội kiểm thử độc lập bên ngoài phát hiện khi rà soát toàn bộ phần mềm, đã sửa và được chính đội kiểm thử xác nhận lại đạt trước khi phát hành:
+
+- **Dữ liệu thiếu/hỏng một phần không còn làm mất dữ liệu quán** — phần mềm tự dựng lại phần còn thiếu; dữ liệu hỏng hẳn thì có hộp thoại **khôi phục từ bản cứu hộ**.
+- **Hủy hóa đơn chọn "Hoàn tiền mặt" thì hoàn đúng tiền mặt ở mọi tài khoản** — két xuất tiền, nợ về đúng 0.
+- **Chấm công bằng PIN trên điện thoại đã hoạt động** (điện thoại gửi PIN lên máy quầy xác thực giúp) + ô chấm PIN có khóa chống dò.
+- **Số hóa đơn luôn đúng** — bộ đếm chứng từ bị lỗi giá trị tự dựng lại theo sổ thật, không còn số lỗi/trùng.
+- **Sổ lô gói Miễn phí nhất quán với tồn kho**; **bảo vệ tài khoản quản lý cuối cùng chặt hơn** (điện thoại đã ghép nối không đẩy được dữ liệu làm mất quản lý).
+- **Cách lên 2.31:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` như thường. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
