@@ -2,24 +2,24 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.32-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.33-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.32
+## 🆕 Có gì mới trong bản v2.33
 
-Bản **sao lưu an toàn tuyệt đối, khôi phục chặt chẽ** — khép vòng kiểm thử chuyên sâu Sao lưu/Khôi phục của một đội kiểm thử độc lập bên ngoài: 21 lỗi được phát hiện, phía phát triển sửa toàn bộ, đội kiểm thử chạy lại và **chính thức gỡ điều kiện phát hành**:
+Bản **ghi nợ cho mọi gói** — khép vòng kiểm thử tổng thể của đội kiểm thử độc lập bên ngoài (~330 ca + 74 ca bổ sung theo gói, kết luận cuối **ĐẠT PHÂN PHỐI**, đối chiếu 5 sổ khớp tuyệt đối):
 
-- **Ghi file sao lưu nguyên tử** — mất điện hay đầy đĩa giữa lúc ghi không còn để lại file hỏng mang tên bản tốt.
-- **Bản sao lưu tự động là dữ liệu mới nhất trong ngày** — làm mới mỗi 15 phút khi có thay đổi thay vì chỉ chụp trạng thái đầu ngày; màn hình hiện rõ bản mới nhất chứa dữ liệu tính đến mấy giờ.
-- **Điểm thưởng của khách không bao giờ bị nhân đôi khi khôi phục** bản sao lưu đời cũ có sổ điểm.
-- **Khôi phục dữ liệu bắt PIN quản lý** + ghi nhật ký từng thay đổi tài khoản — file lạ sửa tay không còn lén thay đổi quyền truy cập của quán.
-- **Bản cứu hộ cứu trọn cả quán lớn** (hết giới hạn dung lượng cũ); máy mới cài có lối khôi phục ngay từ màn hình thiết lập đầu tiên.
-- **Mở phần mềm nối máy quầy bền hơn** — dữ liệu ca làm việc đời cũ thiếu trường được tự chữa ở mọi đường nạp, không còn văng lỗi hay báo sai lỗi kết nối.
-- **Cách lên 2.32:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` như thường. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Gói Miễn phí nay ghi nợ – thu nợ được** cho mọi khách hàng — chủ quán và nhân viên bán hàng đều thu nợ được, mỗi lần thu có phiếu và dòng lịch sử tra lại được.
+- **In hóa đơn từ mẫu đời cũ đầy đủ trở lại** — hết cảnh mẫu chuyển đổi chỉ còn tiêu đề/chân trang làm hóa đơn thiếu dòng hàng và tổng tiền; nhãn cách trả/cách hoàn trên chứng từ cũ hiển thị đúng.
+- **Dữ liệu gốc hàng hóa được chốt an toàn** — điện thoại nhân viên không còn sửa giá/đổi tên/xóa hàng qua kênh đồng bộ; trừ tồn khi bán không bị ảnh hưởng.
+- **Thuế tạm tính bù trừ trong năm ở cả hai vế** (doanh thu và thu nhập) — quý lỗ bù quý lãi, không nộp thừa.
+- **Ngày phép và bảng lương đếm thống nhất theo ngày làm việc**; ngày lễ trong kỳ phép không trừ quỹ phép; kỳ lương đã khóa giữ nguyên.
+- **Sổ thuế hiện đúng tỷ lệ GTGT đang áp** (0,8% khi đang giảm 20%).
+- **Cách lên 2.33:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` như thường. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
