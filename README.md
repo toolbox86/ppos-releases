@@ -2,23 +2,24 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.31-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.32-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.31
+## 🆕 Có gì mới trong bản v2.32
 
-Bản vá **độ bền dữ liệu và bảo vệ tài khoản** — gom các lỗi do một đội kiểm thử độc lập bên ngoài phát hiện khi rà soát toàn bộ phần mềm, đã sửa và được chính đội kiểm thử xác nhận lại đạt trước khi phát hành:
+Bản **sao lưu an toàn tuyệt đối, khôi phục chặt chẽ** — khép vòng kiểm thử chuyên sâu Sao lưu/Khôi phục của một đội kiểm thử độc lập bên ngoài: 21 lỗi được phát hiện, phía phát triển sửa toàn bộ, đội kiểm thử chạy lại và **chính thức gỡ điều kiện phát hành**:
 
-- **Dữ liệu thiếu/hỏng một phần không còn làm mất dữ liệu quán** — phần mềm tự dựng lại phần còn thiếu; dữ liệu hỏng hẳn thì có hộp thoại **khôi phục từ bản cứu hộ**.
-- **Hủy hóa đơn chọn "Hoàn tiền mặt" thì hoàn đúng tiền mặt ở mọi tài khoản** — két xuất tiền, nợ về đúng 0.
-- **Chấm công bằng PIN trên điện thoại đã hoạt động** (điện thoại gửi PIN lên máy quầy xác thực giúp) + ô chấm PIN có khóa chống dò.
-- **Số hóa đơn luôn đúng** — bộ đếm chứng từ bị lỗi giá trị tự dựng lại theo sổ thật, không còn số lỗi/trùng.
-- **Sổ lô gói Miễn phí nhất quán với tồn kho**; **bảo vệ tài khoản quản lý cuối cùng chặt hơn** (điện thoại đã ghép nối không đẩy được dữ liệu làm mất quản lý).
-- **Cách lên 2.31:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` như thường. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Ghi file sao lưu nguyên tử** — mất điện hay đầy đĩa giữa lúc ghi không còn để lại file hỏng mang tên bản tốt.
+- **Bản sao lưu tự động là dữ liệu mới nhất trong ngày** — làm mới mỗi 15 phút khi có thay đổi thay vì chỉ chụp trạng thái đầu ngày; màn hình hiện rõ bản mới nhất chứa dữ liệu tính đến mấy giờ.
+- **Điểm thưởng của khách không bao giờ bị nhân đôi khi khôi phục** bản sao lưu đời cũ có sổ điểm.
+- **Khôi phục dữ liệu bắt PIN quản lý** + ghi nhật ký từng thay đổi tài khoản — file lạ sửa tay không còn lén thay đổi quyền truy cập của quán.
+- **Bản cứu hộ cứu trọn cả quán lớn** (hết giới hạn dung lượng cũ); máy mới cài có lối khôi phục ngay từ màn hình thiết lập đầu tiên.
+- **Mở phần mềm nối máy quầy bền hơn** — dữ liệu ca làm việc đời cũ thiếu trường được tự chữa ở mọi đường nạp, không còn văng lỗi hay báo sai lỗi kết nối.
+- **Cách lên 2.32:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` như thường. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
