@@ -2,23 +2,20 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.34-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.35-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.34
+## 🆕 Có gì mới trong bản v2.35
 
-Bản **vá kỹ tab Hàng hóa** — kết quả vòng kiểm thử chuyên sâu riêng tab Hàng hóa của đội kiểm thử độc lập trên v2.33 (28 ca, dữ liệu 1.724 mặt hàng đúng đặc điểm quán thật): vá toàn bộ 4 lỗi và xử lý 16 quan sát nghiệp vụ. Đây là **bản cập nhật trong app**, không có file exe mới:
+Bản **đổi bố cục 3 màn tạo phiếu** — thuần giao diện, nghiệp vụ giữ nguyên tuyệt đối (đã kiểm chứng bằng bộ ca tự động lái trọn 3 luồng ở bản cũ và bản mới: mọi con số khớp tuyệt đối):
 
-- **Xuất danh sách hàng hóa trung thực đầy đủ** — xuất ra nhập lại ở máy khác giữ đúng loại hàng, trạng thái bán, quy đổi thùng/lốc, thuộc tính, tích điểm (trước đây xuất → nhập lại làm sai dữ liệu lặng).
-- **In tem mã vạch dùng được thật** — in đúng hàng đã tick chọn, số tem theo tồn hoặc tự nhập, khổ tem 35×22mm và 50×30mm, mã vạch Code128 quét được (trước đây tem chỉ in dãy số trang trí, luôn in 60 hàng đầu).
-- **Bán hàng theo lô chuẩn ở mọi gói** — trừ lô hết hạn trước (FEFO) và chặn bán hàng đã hết hạn ngay cả ở gói Miễn phí; hạn dùng hiển thị lấy theo lô gần nhất còn hàng ở cả tab Hàng hóa lẫn màn Tổng quan.
-- **Quyền xem hàng hóa tách khỏi quyền sửa** — vai trò Chỉ xem xem được danh sách để tra giá/tra tồn; đồng thời đóng lỗ hổng chốt quyền ở đường nhập Excel và thao tác hàng loạt.
-- **Nhập liệu chắc hơn** — file mẫu Excel sửa dòng ví dụ quy đổi và ghi rõ giới hạn; báo cáo nhập cảnh báo mã vạch trùng, giá không phải số, mã trùng trong file; thêm hàng để trống mã thì máy tự sinh mã SP…
-- **Cách lên 2.34:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong. Khách mới tải file `PPOS.exe` ở bản v2.33 rồi mở app để cập nhật lên 2.34. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Phiếu nhập hàng, phiên kiểm kho và phiếu trả hàng cho nhà cung cấp** nay dùng bố cục 2 cột giống màn Bán hàng: bên trái là vùng tìm hàng và bảng dòng, bên phải là cột phiếu cố định gồm thông tin phiếu, các con số tổng kết và **nút chốt phiếu luôn nhìn thấy** — không phải cuộn xuống cuối trang mới bấm được.
+- Mọi thao tác giữ nguyên đúng như trước: thêm hàng, sửa số lượng/giá/hạn dùng, chọn lô, cách tính tiền, trừ kho, trừ công nợ và chốt kiểm kho không thay đổi chút nào — chỉ dời vị trí các ô trên màn hình cho thuận tiện. Phiếu nháp đang nhập dở ở bản cũ mở lên bản này nhập tiếp bình thường.
+- **Cách lên 2.35:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
