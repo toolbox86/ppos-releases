@@ -2,20 +2,22 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.35-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.36-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.35
+## 🆕 Có gì mới trong bản v2.36
 
-Bản **đổi bố cục 3 màn tạo phiếu** — thuần giao diện, nghiệp vụ giữ nguyên tuyệt đối (đã kiểm chứng bằng bộ ca tự động lái trọn 3 luồng ở bản cũ và bản mới: mọi con số khớp tuyệt đối):
+Bản **kiểm kho theo kiểu phiếu** và **phiếu nhập hàng có lưu tạm**:
 
-- **Phiếu nhập hàng, phiên kiểm kho và phiếu trả hàng cho nhà cung cấp** nay dùng bố cục 2 cột giống màn Bán hàng: bên trái là vùng tìm hàng và bảng dòng, bên phải là cột phiếu cố định gồm thông tin phiếu, các con số tổng kết và **nút chốt phiếu luôn nhìn thấy** — không phải cuộn xuống cuối trang mới bấm được.
-- Mọi thao tác giữ nguyên đúng như trước: thêm hàng, sửa số lượng/giá/hạn dùng, chọn lô, cách tính tiền, trừ kho, trừ công nợ và chốt kiểm kho không thay đổi chút nào — chỉ dời vị trí các ô trên màn hình cho thuận tiện. Phiếu nháp đang nhập dở ở bản cũ mở lên bản này nhập tiếp bình thường.
-- **Cách lên 2.35:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Kiểm kho đổi sang kiểu phiếu như màn Bán hàng:** mở đợt kiểm là phiếu trống, gõ tìm hoặc quét mã vạch rồi chọn từng mặt hàng vào phiếu mới đếm — không còn phải lướt qua danh sách hàng nghìn món. Cột bên phải hiện đầy đủ thông tin đợt kiểm: tên cửa hàng, mã đợt, ngày giờ, tổng số lượng, tổng thực tế, số lệch tăng/giảm, lệch tiền, ô ghi chú và nút **Lưu tạm** — đếm dở thì lưu lại, lúc khác mở ra đếm tiếp. Cách chốt đợt kiểm và cách tính lệch giữ nguyên như trước.
+- **Phiếu nhập hàng có Lưu tạm đúng nghĩa:** phiếu đang nhập dở được lưu thành một phiếu tạm có số phiếu hẳn hoi trong danh sách phiếu nhập — tắt máy mở lại vẫn còn, bấm **Tiếp tục nhập** để nhập tiếp; khi xong bấm **Nhập hàng** thì phiếu tạm chuyển thành phiếu nhập chính thức. Phiếu tạm chưa cộng kho, chưa ghi công nợ.
+- **Phiếu nhập hàng thêm các ô tiền mới:** Số hóa đơn đầu vào (số trên hóa đơn của nhà cung cấp), Giảm giá từ nhà cung cấp, Chi phí nhập (ví dụ phí ship) — phần mềm tự tính **Tổng tiền cần trả**; ô **Tiền thực tế trả** điền sẵn bằng số cần trả, trả thiếu bao nhiêu thì phần còn lại tự ghi thành công nợ.
+- **Cả hai phiếu mua hàng không còn tự chọn sẵn nhà cung cấp:** mỗi lần làm phiếu nhập hàng hay phiếu trả hàng, bạn gõ tìm rồi chọn đúng nhà cung cấp — tránh nhập nhầm phiếu cho nhà cung cấp khác.
+- **Cách lên 2.36:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
