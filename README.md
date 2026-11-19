@@ -2,22 +2,23 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.36-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.37-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.36
+## 🆕 Có gì mới trong bản v2.37
 
-Bản **kiểm kho theo kiểu phiếu** và **phiếu nhập hàng có lưu tạm**:
+Bản **vá lỗi kiểm kho đã chốt**, **mở Kiểm kho và Phiếu nhập trên điện thoại cho tài khoản Chủ** và **đồng bộ ô tìm hàng**:
 
-- **Kiểm kho đổi sang kiểu phiếu như màn Bán hàng:** mở đợt kiểm là phiếu trống, gõ tìm hoặc quét mã vạch rồi chọn từng mặt hàng vào phiếu mới đếm — không còn phải lướt qua danh sách hàng nghìn món. Cột bên phải hiện đầy đủ thông tin đợt kiểm: tên cửa hàng, mã đợt, ngày giờ, tổng số lượng, tổng thực tế, số lệch tăng/giảm, lệch tiền, ô ghi chú và nút **Lưu tạm** — đếm dở thì lưu lại, lúc khác mở ra đếm tiếp. Cách chốt đợt kiểm và cách tính lệch giữ nguyên như trước.
-- **Phiếu nhập hàng có Lưu tạm đúng nghĩa:** phiếu đang nhập dở được lưu thành một phiếu tạm có số phiếu hẳn hoi trong danh sách phiếu nhập — tắt máy mở lại vẫn còn, bấm **Tiếp tục nhập** để nhập tiếp; khi xong bấm **Nhập hàng** thì phiếu tạm chuyển thành phiếu nhập chính thức. Phiếu tạm chưa cộng kho, chưa ghi công nợ.
-- **Phiếu nhập hàng thêm các ô tiền mới:** Số hóa đơn đầu vào (số trên hóa đơn của nhà cung cấp), Giảm giá từ nhà cung cấp, Chi phí nhập (ví dụ phí ship) — phần mềm tự tính **Tổng tiền cần trả**; ô **Tiền thực tế trả** điền sẵn bằng số cần trả, trả thiếu bao nhiêu thì phần còn lại tự ghi thành công nợ.
-- **Cả hai phiếu mua hàng không còn tự chọn sẵn nhà cung cấp:** mỗi lần làm phiếu nhập hàng hay phiếu trả hàng, bạn gõ tìm rồi chọn đúng nhà cung cấp — tránh nhập nhầm phiếu cho nhà cung cấp khác.
-- **Cách lên 2.36:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Đợt kiểm kho đã chốt được khóa chặt:** mở lại đợt đã chốt chỉ để xem, không sửa được số đếm nữa — tránh bấm nhầm làm hồ sơ kiểm kho lệch với số tồn thật đã chốt. Tiêu đề và thông tin đợt hiện đúng chữ "Đã chốt" kèm thời gian chốt.
+- **Tài khoản Chủ làm được Kiểm kho và Phiếu nhập ngay trên điện thoại:** vào mục "Thêm" có thẻ "Quản lý kho (chỉ Chủ)". Tài khoản nhân viên vẫn như cũ — điện thoại của nhân viên chỉ để bán hàng.
+- **Ô tìm hàng và tìm nhà cung cấp dùng chung một kiểu ở mọi màn** (Bán hàng, Phiếu nhập, Phiếu trả, Kiểm kho): gõ là sổ xuống một danh sách gọn để bấm chọn, hiện tối đa 15 kết quả — hết cảnh mỗi màn một kiểu, hết cảnh kết quả tìm bị thanh menu che mất. Lưới "Chọn hàng" ở màn Bán hàng giữ nguyên cho ai quen bấm chọn bằng tay.
+- **Hết treo ô tìm khi danh sách hàng dài:** gõ tới đâu danh sách lọc tới đó, chữ không mất, trỏ không nhảy.
+- **Cột bên phải của phiếu nhập hàng gọn hơn:** bỏ đoạn chữ hướng dẫn dài thừa, hết lỗi chữ bị bóp xuống dòng từng chữ; nút Quay lại danh sách nằm gọn một dòng riêng.
+- **Cách lên 2.37:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
