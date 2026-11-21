@@ -2,21 +2,19 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.38-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.39-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.38
+## 🆕 Có gì mới trong bản v2.39
 
-Bản **dọn gọn bố cục ba màn phiếu** (phiếu nhập hàng, phiếu trả nhà cung cấp, kiểm kho) theo đúng ảnh chụp trên máy quầy thật của quán:
-
-- **Phiếu nhập hàng: số lượng và đơn vị nằm trên cùng một hàng** — trước đây hai ô xếp chồng hai hàng kèm dòng chữ nhỏ bị ngắt xuống dòng khó nhìn; nay nhập liệu nhanh hơn, dòng hàng gọn hẳn. Đổi đơn vị vẫn quy đổi tồn kho theo hệ số đóng gói như cũ, giá và tổng tiền không đổi.
-- **Cột thông tin bên phải của phiếu nhập và phiếu trả liền một khối** — không còn hai thẻ rời nhau (thẻ tiền phiếu trả hết nền xám riêng); khoảng cách giãn đều, thoáng hơn. Các nút Lưu tạm / Nhập hàng / Tạo phiếu trả / Quay lại danh sách giữ nguyên vị trí và cách bấm.
-- **Màn kiểm kho chuẩn hoá khoảng cách** cho đồng bộ với hai màn phiếu.
-- **Cách lên 2.38:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Bán hàng: chọn đơn vị ngay trên dòng đơn** — bảng hàng trong đơn có thêm cột **Đơn vị tính**: hàng có quy đổi (lốc/thùng...) bấm vào ô là đổi qua lại, giá tự nhảy theo đơn vị đã chọn, kho trừ đúng hệ số — theo cách KiotViet đang làm, hết cảnh bấm nhầm đơn vị. Nếu đơn đã có sẵn dòng ở đơn vị kia, máy tự gộp số lượng. Quét mã của đơn vị quy đổi ở quầy vẫn vào thẳng 1 đơn vị lớn như cũ.
+- **Nhập danh sách sản phẩm từ KiotViet chuẩn hơn** — dòng quy đổi gắn đúng vào sản phẩm gốc kèm **giá bán riêng của đơn vị lớn** và mã riêng của dòng quy đổi; hàng nhiều vị/biến thể không còn bị gộp mất; các dòng bán lẻ theo phân số được liệt kê rõ trong kết quả nhập. Form hàng hóa có thêm ô **Mã đơn vị quy đổi** (máy tự sinh, chủ quán sửa tùy ý miễn không trùng).
+- **Phiếu nhập & phiếu trả thẳng hàng đẹp hơn** — các ô trên dòng hàng cao bằng nhau, thẳng một hàng; ô chọn đơn vị có thêm nhãn "Đơn vị tính".
+- **Cách lên 2.39:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
