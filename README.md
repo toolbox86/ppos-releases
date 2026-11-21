@@ -2,17 +2,17 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.40-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.41-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.40
+## 🆕 Có gì mới trong bản v2.41
 
-- **Bán hàng trên điện thoại: thẻ hàng trong đơn ngay ngắn như trên máy tính** — thẻ hàng nay xếp 3 hàng rõ ràng: tên hàng và nút bỏ món ở góc phải trên; ô chọn **Đơn vị tính** (lốc/thùng...) cạnh ô số lượng; đơn giá và thành tiền ở hàng dưới. Trước đây thẻ hàng trên điện thoại vẫn theo bố cục cũ từ trước khi có cột Đơn vị tính nên nút bỏ món bị rơi xuống cuối thẻ, ô chọn đơn vị bị ép nhỏ và thành tiền bị đẩy lên góc trên dễ nhìn nhầm — nay đã sửa dứt điểm. Bán hàng trên máy tính quầy giữ nguyên như bản 2.39.
-- **Cách lên 2.40:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Cài mới là đăng ký tài khoản PPOS ngay trong phần mềm** — khách mới mở PPOS lần đầu sẽ đăng ký tài khoản miễn phí (khoảng 1 phút, cần internet cho bước này), đăng nhập lại rồi đặt mã PIN mới vào bán hàng. Tài khoản giúp quán nhận mã nâng cấp đúng máy, được hỗ trợ tận nơi và chuyển máy dễ dàng về sau. **Quán đang dùng PPOS rồi cập nhật lên vẫn vào thẳng bằng mã PIN như cũ — không phải đăng ký lại**, dữ liệu giữ nguyên.
+- **Cách lên 2.41:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
