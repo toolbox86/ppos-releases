@@ -2,23 +2,21 @@
 
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.37-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.38-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 ## ⬇️ Tải về
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
-## 🆕 Có gì mới trong bản v2.37
+## 🆕 Có gì mới trong bản v2.38
 
-Bản **vá lỗi kiểm kho đã chốt**, **mở Kiểm kho và Phiếu nhập trên điện thoại cho tài khoản Chủ** và **đồng bộ ô tìm hàng**:
+Bản **dọn gọn bố cục ba màn phiếu** (phiếu nhập hàng, phiếu trả nhà cung cấp, kiểm kho) theo đúng ảnh chụp trên máy quầy thật của quán:
 
-- **Đợt kiểm kho đã chốt được khóa chặt:** mở lại đợt đã chốt chỉ để xem, không sửa được số đếm nữa — tránh bấm nhầm làm hồ sơ kiểm kho lệch với số tồn thật đã chốt. Tiêu đề và thông tin đợt hiện đúng chữ "Đã chốt" kèm thời gian chốt.
-- **Tài khoản Chủ làm được Kiểm kho và Phiếu nhập ngay trên điện thoại:** vào mục "Thêm" có thẻ "Quản lý kho (chỉ Chủ)". Tài khoản nhân viên vẫn như cũ — điện thoại của nhân viên chỉ để bán hàng.
-- **Ô tìm hàng và tìm nhà cung cấp dùng chung một kiểu ở mọi màn** (Bán hàng, Phiếu nhập, Phiếu trả, Kiểm kho): gõ là sổ xuống một danh sách gọn để bấm chọn, hiện tối đa 15 kết quả — hết cảnh mỗi màn một kiểu, hết cảnh kết quả tìm bị thanh menu che mất. Lưới "Chọn hàng" ở màn Bán hàng giữ nguyên cho ai quen bấm chọn bằng tay.
-- **Hết treo ô tìm khi danh sách hàng dài:** gõ tới đâu danh sách lọc tới đó, chữ không mất, trỏ không nhảy.
-- **Cột bên phải của phiếu nhập hàng gọn hơn:** bỏ đoạn chữ hướng dẫn dài thừa, hết lỗi chữ bị bóp xuống dòng từng chữ; nút Quay lại danh sách nằm gọn một dòng riêng.
-- **Cách lên 2.37:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Phiếu nhập hàng: số lượng và đơn vị nằm trên cùng một hàng** — trước đây hai ô xếp chồng hai hàng kèm dòng chữ nhỏ bị ngắt xuống dòng khó nhìn; nay nhập liệu nhanh hơn, dòng hàng gọn hẳn. Đổi đơn vị vẫn quy đổi tồn kho theo hệ số đóng gói như cũ, giá và tổng tiền không đổi.
+- **Cột thông tin bên phải của phiếu nhập và phiếu trả liền một khối** — không còn hai thẻ rời nhau (thẻ tiền phiếu trả hết nền xám riêng); khoảng cách giãn đều, thoáng hơn. Các nút Lưu tạm / Nhập hàng / Tạo phiếu trả / Quay lại danh sách giữ nguyên vị trí và cách bấm.
+- **Màn kiểm kho chuẩn hoá khoảng cách** cho đồng bộ với hai màn phiếu.
+- **Cách lên 2.38:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
 ## Vì sao chủ quán chọn PPOS?
 
