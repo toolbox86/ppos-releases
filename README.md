@@ -1,20 +1,39 @@
 # PPOS — Phần mềm bán hàng offline
 
+
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.41-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.42-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+
 
 ## ⬇️ Tải về
+
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
+
+## 🆕 Có gì mới trong bản v2.42
+
+
+- **Thuế & Kế toán: tự lập sổ sách và tờ khai thuế** — menu "Tiền & Thuế" → Thuế & Kế toán: Tổng quan thuế tạm tính cả năm, Sổ kế toán theo Thông tư 152/2025/TT-BTC (S1a, S2a–S2e, sổ theo dõi nộp thuế) tải được Excel và in được, Tờ khai thuế tự lập 01/CNKD (Thông tư 50/2026/TT-BTC) kèm phụ lục giảm thuế GTGT và giảm 30% TNCN, thông báo doanh thu, quyết toán TNCN năm và bảng kê tài khoản. Phân loại thuế theo nhóm hàng (6 nhóm ngành), sổ và tờ khai tự tách theo từng nhóm.
+- **Gói Business:** xuất file XML 01/CNKD (bản thử nghiệm), nhắc hạn nộp tờ khai, ghi nhận đã nộp và khóa kỳ. Sổ kế toán + tờ khai (xem trước, Excel, in) ở gói Pro trở lên.
+- **Vá lỗi vân tay máy:** máy mới đôi khi không gửi được vân tay máy về máy chủ bản quyền trong ngày đầu — đã vá, vân tay tới muộn hoặc thay đổi do thay phần cứng sẽ tự gửi bổ sung ngay.
+- **Cách lên 2.42:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+
+Xem chi tiết: [Release v2.42](https://github.com/toolbox86/ppos-releases/releases/tag/v2.42)
+
+
 ## 🆕 Có gì mới trong bản v2.41
+
 
 - **Cài mới là đăng ký tài khoản PPOS ngay trong phần mềm** — khách mới mở PPOS lần đầu sẽ đăng ký tài khoản miễn phí (khoảng 1 phút, cần internet cho bước này), đăng nhập lại rồi đặt mã PIN mới vào bán hàng. Tài khoản giúp quán nhận mã nâng cấp đúng máy, được hỗ trợ tận nơi và chuyển máy dễ dàng về sau. **Quán đang dùng PPOS rồi cập nhật lên vẫn vào thẳng bằng mã PIN như cũ — không phải đăng ký lại**, dữ liệu giữ nguyên.
 - **Cách lên 2.41:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
+
 ## Vì sao chủ quán chọn PPOS?
+
 
 - 📶 **Mất mạng, mất điện giữa chừng vẫn bán** — phần mềm chạy offline ngay trên máy của quán, không phụ thuộc internet hay máy chủ bên ngoài.
 - 🔓 **Không bị ép thuê bao, dữ liệu không bị giữ làm con tin** — hết hạn gói, phần mềm không khóa đột ngột; bạn vẫn bán bằng gói Free và xuất dữ liệu ra file bất cứ lúc nào.
@@ -24,65 +43,13 @@
 - 🕐 **Chấm công & tính lương ngay trong phần mềm** — xếp ca, đơn từ, tăng ca, tạm ứng và tính lương theo tháng/ca/giờ (gói Business).
 - 🧮 **Sổ thuế hộ kinh doanh tự tính** — doanh thu tổng hợp tự động từ bán hàng, dự kiến thuế phải nộp theo quy định hộ kinh doanh.
 
+
 ![Trang tổng quan của quán: doanh thu hôm nay, số hóa đơn, tiền khách đang nợ và hàng sắp hết hạn](images/tong-quan.jpg)
 *Trang tổng quan — mở máy là thấy toàn cảnh quán hôm nay.*
+
 
 ![Màn hình bán hàng trên máy tính: giỏ hàng bên trái, thu tiền bên phải](images/ban-hang-may-tinh.jpg)
 *Màn hình bán hàng trên máy quầy — tổng tiền, cách trả và tiền thừa trả khách hiện rõ.*
 
+
 <img src="images/ban-hang-dien-thoai.jpg" alt="Bán hàng trên điện thoại: chọn hàng, tính tiền như ở quầy, kho trừ chung với máy tính" width="300">
-*Bán hàng trên điện thoại — nhân viên bán chung một kho với máy quầy qua Wi-Fi trong quán.*
-
-## Bảng giá
-
-Giá tính theo cửa hàng, không tính theo người dùng, không phí ẩn:
-
-| Gói | Giá |
-|---|---|
-| **Free** | 0đ — miễn phí vĩnh viễn |
-| **Pro** | 3.990.000đ — mua vĩnh viễn, trả một lần |
-| **Business** | 4.990.000đ — mua vĩnh viễn, trả một lần |
-
-PPOS chỉ bán **vĩnh viễn** (từ 14/11/2026): mua một lần, dùng trọn đời, mọi bản cập nhật về sau vẫn giữ nguyên gói — không bán theo tháng/năm, không phí duy trì hằng năm. Có **dùng thử Business 14 ngày miễn phí** (liên hệ Zalo ở trang giới thiệu).
-
-> Cam kết: gói mua vĩnh viễn **không bao giờ hết hạn** — phần mềm không bị khóa vì hết hạn gói; dữ liệu luôn nằm trên máy tính của quán và xuất ra file được bất cứ lúc nào. Hỗ trợ kỹ thuật vĩnh viễn.
-
-Chi tiết so sánh từng tính năng: [xem bảng giá đầy đủ](https://ppos-landing.vercel.app/bang-gia).
-
-## Cài đặt trong 3 bước
-
-1. **Tải** file `PPOS.exe` từ mục [Releases](https://github.com/toolbox86/ppos-releases/releases).
-2. **Chạy file** để cài đặt trên máy tính Windows 10/11 của quán.
-3. **Mở PPOS** và dùng ngay gói Free miễn phí vĩnh viễn — hoặc nhập mã bản quyền trong phần mềm để nâng lên gói Pro / Business.
-
-## 📚 Nguồn tham khảo & ghi công
-
-PPOS là phần mềm được **phát triển độc lập**. Trong quá trình xây dựng, danh mục tính năng của PPOS đã được đối chiếu và tham khảo từ **ERPNext** — một trong những hệ thống ERP mã nguồn mở phổ biến nhất thế giới — để bảo đảm bao quát đầy đủ nghiệp vụ bán hàng, kho và nhân sự cho cửa hàng nhỏ (đợt kiểm tra chất lượng đối soát 69 tính năng). PPOS **không sao chép mã nguồn của ERPNext** — phần ghi công này là lời cảm ơn dành cho nguồn tham khảo tính năng đó.
-
-| 🔗 Nguồn tham khảo | Liên kết |
-|---|---|
-| 🌐 Trang chủ ERPNext | [erpnext.com](https://erpnext.com) |
-| 💻 Mã nguồn ERPNext trên GitHub | [github.com/frappe/erpnext](https://github.com/frappe/erpnext) |
-| 🏢 Đơn vị phát triển — Frappe | [frappe.io](https://frappe.io) |
-| 📜 Giấy phép GNU GPL v3 (toàn văn) | [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html) |
-
-> **⚖️ Về giấy phép:** ERPNext được phân phối theo giấy phép **GNU GPL v3**. PPOS tôn trọng giấy phép này và thực hiện ghi công cho phần tham khảo tính năng nêu trên. Vì PPOS không sao chép mã nguồn ERPNext, mã nguồn của PPOS không thuộc phạm vi điều chỉnh của GNU GPL v3.
->
-> **™️ Về nhãn hiệu:** "ERPNext" là nhãn hiệu của **Frappe Technologies Pvt. Ltd.** PPOS không phải là sản phẩm của Frappe và không được Frappe bảo trợ hay chứng thực.
-
-## ⚖️ Bản quyền & điều khoản sử dụng
-
-PPOS là phần mềm thương mại **© 2026 Nguyễn Tấn Phát** — **không phải phần mềm mã nguồn mở**. Người dùng được tải, cài đặt và sử dụng PPOS theo phạm vi gói bản quyền của mình (Free / Pro / Business); nghiêm cấm sao chép, phân phối lại, dịch ngược và vô hiệu hóa cơ chế bản quyền. Toàn văn điều khoản: xem file [LICENSE](LICENSE).
-
-## Hỗ trợ
-
-- 💬 Zalo: **0986 495 913**
-- ✉️ Email: **phatnt056@gmail.com**
-- 📘 Facebook: [facebook.com/phatnt056](https://facebook.com/phatnt056)
-- 📖 Trang hướng dẫn: [ppos-landing.vercel.app/huong-dan](https://ppos-landing.vercel.app/huong-dan)
-
----
-
-*Kho này chỉ chứa các bản phát hành của PPOS để tải về — không chứa mã nguồn của phần mềm.*
-
-© 2026 Nguyễn Tấn Phát — PPOS · Bảo lưu mọi quyền.
