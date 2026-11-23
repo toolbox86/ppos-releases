@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.44-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.45-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -12,6 +12,17 @@
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
+
+
+## 🆕 Có gì mới trong bản v2.45
+
+
+- **Đơn ghi nợ hiện đúng nhãn "Ghi nợ" / "Còn nợ ..."** — ở danh sách hóa đơn trên cả máy tính và điện thoại, trong chi tiết đơn và lịch sử mua hàng của khách. Trước đây đơn ghi nợ vẫn hiện "Đã thu tiền" gây khó hiểu; công nợ tổng vẫn luôn tính đúng.
+- **Nút thanh toán đổi chữ theo cách trả** — chọn Ghi nợ thì nút thành **BÁN NỢ**, trả một phần là **THU TIỀN + BÁN NỢ**, trả đủ là **THU TIỀN**: nhìn nút là biết đơn này ghi nợ hay thu tiền.
+- **Đồng bộ điện thoại – máy quầy chắc chắn hơn** — nếu điện thoại chưa gửi được dữ liệu về máy quầy (mất Wi-Fi, máy quầy bận...), máy hiện thanh cảnh báo rõ ràng kèm nút **Gửi lại ngay** và tự thử gửi lại mỗi ~20 giây cho tới khi thành công, không còn cảnh đơn kẹt ở điện thoại mà không ai biết.
+- **Cách lên 2.45:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+
+Xem chi tiết: [Release v2.45](https://github.com/toolbox86/ppos-releases/releases/tag/v2.45)
 
 
 ## 🆕 Có gì mới trong bản v2.44
