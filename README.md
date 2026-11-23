@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.43-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.44-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -12,6 +12,16 @@
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
+
+
+## 🆕 Có gì mới trong bản v2.44
+
+
+- **Số hóa đơn tự nối tiếp dãy số của phần mềm cũ** — khi nạp dữ liệu bán hàng từ phần mềm trước (KiotViet, VietSalePro...), PPOS tự nhận biết hóa đơn mới nhất đang có trong sổ và xuất đơn mới với số kế tiếp liền dãy, đủ 6 chữ số (ví dụ đang có HD020080 thì đơn mới là HD020081) — không trùng số, không nhảy số, chủ quán không cần chỉnh tay gì cả.
+- **Danh sách hóa đơn đã bán hiện đơn mới nhất lên trên đầu** — vừa bán xong mở ra là thấy ngay, khỏi cuộn xuống cuối tìm.
+- **Cách lên 2.44:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+
+Xem chi tiết: [Release v2.44](https://github.com/toolbox86/ppos-releases/releases/tag/v2.44)
 
 
 ## 🆕 Có gì mới trong bản v2.43
