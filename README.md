@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.42-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.43-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -12,6 +12,18 @@
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
+
+
+## 🆕 Có gì mới trong bản v2.43
+
+
+- **Tờ khai và sổ sách thuế ra đúng mẫu nhà nước** — tờ khai 01/CNKD trình bày đúng mẫu giấy như trong HTKK (đủ thông tin quán, kê khai theo nhóm ngành, các khoản giảm thuế, số tiền thực nộp); sổ kế toán Thông tư 152/2025 dựng lại đúng biểu mẫu gốc (đủ khối "Mẫu số", đúng từng cột, dòng tổng, phần ký) ở cả màn hình, Excel và bản in.
+- **File XML 01/CNKD chốt theo HTKK hiện hành** — viết lại theo đúng một file XML thật do HTKK 5.5.4 kết xuất (mã tờ khai 473), nạp vào HTKK / Thuế điện tử để kiểm tra, ký và nộp.
+- **Mới: nút "Tải PDF"** cho tờ khai và mọi sổ kế toán — file PDF mở máy nào cũng giống hệt nhau, in ra giấy đúng khổ A4 (sổ hàng hóa S2d tự sang khổ ngang), tiện gửi cho kế toán hoặc lưu hồ sơ.
+- **Sửa lỗi xuất Excel trong toàn app** — hết hiện số kiểu 5.25E+08 và cắt chữ ở mọi báo cáo; cột nay tự giãn, số có dấu phân cách rõ ràng. Kèm vá một lỗi in ấn cũ khiến bản in lọt thêm một trang trắng.
+- **Cách lên 2.43:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+
+Xem chi tiết: [Release v2.43](https://github.com/toolbox86/ppos-releases/releases/tag/v2.43)
 
 
 ## 🆕 Có gì mới trong bản v2.42
