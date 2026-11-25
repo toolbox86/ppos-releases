@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.46-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.47-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -14,14 +14,15 @@
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
 
-## 🆕 Có gì mới trong bản v2.46
+## 🆕 Có gì mới trong bản v2.47
 
 
-- **Đồng bộ điện thoại – máy quầy không còn kẹt vì lệch sổ** — khi sổ nhật ký giữa điện thoại và máy quầy lệch nhau (sau khôi phục dữ liệu, bán lúc mất liên lạc...), máy quầy nay tự hòa sổ và nhận dữ liệu bình thường, thay vì chặn khiến đơn bán trên điện thoại không lên được quầy như trước.
-- **Đơn chưa kịp đồng bộ trên điện thoại được giữ an toàn** — khi điện thoại nạp lại dữ liệu từ quầy, đơn chưa gửi được sẽ vào **bản lưu dự phòng** (xem ở Cài đặt → Dữ liệu) để gộp lại, không còn biến mất.
-- **Cách lên 2.46:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Bán trên điện thoại kể cả khi mất liên lạc** — mất Wi-Fi hoặc máy quầy chưa mở, điện thoại vẫn chốt đơn bình thường ngay tại máy, kèm cảnh báo rõ ràng và tự gửi lên quầy ngay khi có liên lạc lại. Đơn không còn "bán mà không có đơn".
+- **Máy quầy tự gộp đơn của điện thoại vào sổ chung** — khi hai máy lệch nhịp, đơn bán từ điện thoại được nhận thẳng vào sổ: doanh thu và tồn kho khớp ngay, trùng số hóa đơn thì máy quầy tự cấp số mới, không cần ai gộp tay.
+- **Quản lý xử lý dữ liệu chờ gộp ngay trên điện thoại** — mục Cài đặt nay mở cho tài khoản quản lý trên điện thoại, kèm huy hiệu bền cho biết đang có bản lưu chờ gộp.
+- **Cách lên 2.47:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
-Xem chi tiết: [Release v2.46](https://github.com/toolbox86/ppos-releases/releases/tag/v2.46)
+Xem chi tiết: [Release v2.47](https://github.com/toolbox86/ppos-releases/releases/tag/v2.47)
 
 
 ## 🆕 Có gì mới trong bản v2.45
