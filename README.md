@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.50-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.51-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -14,16 +14,17 @@
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
 
-## 🆕 Có gì mới trong bản v2.50
+## 🆕 Có gì mới trong bản v2.51
 
 
-- **Hai danh sách dài nay gọn hẳn** — Lịch sử cập nhật và Nhật ký hoạt động của nhân viên chỉ hiện 3 dòng mới nhất, bấm "Xem tất cả" mới mở ra đầy đủ; màn hình hết bị kéo dài.
-- **Thông báo doanh thu 01/TKN-CNKD sát mẫu giấy chính thức** — dựng lại đối chiếu từng phần với file mẫu của Bộ Tài chính (Thông tư 89/2026/TT-BTC): đủ các phần A–E, bảng bù trừ, khối ký tên và ghi chú đúng nguyên văn.
-- **Sao lưu tự động giữ đúng số bản bạn đặt** — đặt giữ 3 thì thư mục có đúng 3 bản tự động mới nhất, bản cũ tự xóa bớt; bản sao lưu tay và bản an toàn trước khi khôi phục vẫn giữ riêng.
-- **Thêm nút "Mở thư mục chứa bản sao lưu"** — ngay trong mục Sao lưu dữ liệu, bấm một cái là mở thẳng thư mục chứa các bản sao lưu trên máy tính quầy.
-- **Cách lên 2.50:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Tăng cường bảo mật theo vòng kiểm thử độc lập** — máy quầy tự kiểm tra chứng từ tiền khi nhận dữ liệu từ điện thoại, dữ liệu sai lệch bị chặn trước khi vào sổ.
+- **Cài chứng chỉ cho điện thoại an toàn hơn** — trang cài đặt hiện mã kiểm chứng để đối chiếu với màn hình máy quầy trước khi cài, tránh cài nhầm chứng chỉ lạ.
+- **Khóa bảo mật của máy quầy tách riêng khỏi dữ liệu bán hàng** — thư mục dữ liệu của quán không còn chứa khóa riêng của máy chủ.
+- **Phiên đăng nhập chặt chẽ hơn** — mở phần mềm là nhập PIN, phiên đăng nhập cũ không tự khôi phục.
+- **Khôi phục sao lưu rõ ràng về bản quyền** — có cảnh báo riêng và lựa chọn giữ bản quyền hiện tại của máy khi khôi phục dữ liệu.
+- **Cách lên 2.51:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.** Sau khi cập nhật, mở lại phần mềm máy sẽ hỏi mã PIN một lần — đó là thay đổi bảo mật có chủ đích.
 
-Xem chi tiết: [Release v2.50](https://github.com/toolbox86/ppos-releases/releases/tag/v2.50)
+Xem chi tiết: [Release v2.51](https://github.com/toolbox86/ppos-releases/releases/tag/v2.51)
 
 
 ## 🆕 Có gì mới trong bản v2.47
