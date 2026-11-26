@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.47-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.48-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -12,6 +12,17 @@
 
 - **Tải bản cài đặt mới nhất:** vào mục **[Releases](https://github.com/toolbox86/ppos-releases/releases)** của kho này và tải file `PPOS.exe`.
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
+
+
+## 🆕 Có gì mới trong bản v2.48
+
+
+- **Tìm kiếm thông minh như KiotViet** — tìm hàng và tìm khách chỉ cần gõ vài từ tắt là ra: gõ "smarta vani 110" là thấy Sữa Smarta Grow Vani 110ml, gõ tên khách vài chữ cũng ra ngay; gõ không dấu vẫn tìm được.
+- **Ô chọn khách ở màn bán hàng tách riêng hẳn** — bấm vào ô khách là tìm và chọn khách ngay tại chỗ, khung thu tiền chỉ mở khi bấm nút thanh toán: bán hàng gọn và nhanh hơn.
+- **Gộp dữ liệu chờ đồng bộ chỉ 1 chạm** — ngay trên máy đang cầm, vào Cài đặt → Sao lưu dữ liệu và bấm **Gộp ngay vào sổ** là đơn chờ được cộng thẳng vào sổ, không cần tải file qua lại giữa các máy.
+- **Cách lên 2.48:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+
+Xem chi tiết: [Release v2.48](https://github.com/toolbox86/ppos-releases/releases/tag/v2.48)
 
 
 ## 🆕 Có gì mới trong bản v2.47
