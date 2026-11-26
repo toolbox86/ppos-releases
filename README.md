@@ -4,7 +4,7 @@
 **Bán hàng không cần internet.** PPOS chạy ngay trên máy tính của quán: máy quầy làm máy chủ trong quán, điện thoại của nhân viên bán chung một kho qua mạng Wi-Fi nội bộ — mất mạng vẫn bán bình thường, dữ liệu luôn nằm trên máy của quán.
 
 
-![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.48-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
+![Phiên bản](https://img.shields.io/badge/phiên_bản-v2.49-blue) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue) ![Gói Free](https://img.shields.io/badge/Free-miễn_phí_vĩnh_viễn-green)
 
 
 ## ⬇️ Tải về
@@ -14,15 +14,15 @@
 - **Trang giới thiệu & bảng giá:** [ppos-landing.vercel.app](https://ppos-landing.vercel.app)
 
 
-## 🆕 Có gì mới trong bản v2.48
+## 🆕 Có gì mới trong bản v2.49
 
 
-- **Tìm kiếm thông minh như KiotViet** — tìm hàng và tìm khách chỉ cần gõ vài từ tắt là ra: gõ "smarta vani 110" là thấy Sữa Smarta Grow Vani 110ml, gõ tên khách vài chữ cũng ra ngay; gõ không dấu vẫn tìm được.
-- **Ô chọn khách ở màn bán hàng tách riêng hẳn** — bấm vào ô khách là tìm và chọn khách ngay tại chỗ, khung thu tiền chỉ mở khi bấm nút thanh toán: bán hàng gọn và nhanh hơn.
-- **Gộp dữ liệu chờ đồng bộ chỉ 1 chạm** — ngay trên máy đang cầm, vào Cài đặt → Sao lưu dữ liệu và bấm **Gộp ngay vào sổ** là đơn chờ được cộng thẳng vào sổ, không cần tải file qua lại giữa các máy.
-- **Cách lên 2.48:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
+- **Thông báo doanh thu năm đúng mẫu mới của Bộ Tài chính** — biểu mẫu 01/TKN-CNKD được dựng lại đúng mẫu chính thức theo Thông tư 89/2026/TT-BTC: đủ các phần A–E như mẫu giấy, nhóm ngành nghề ghi theo số thứ tự (1)–(6), doanh thu điền sẵn theo từng nhóm ngành và dòng tổng cộng.
+- **Xem trước, tải Excel, tải PDF cùng một mẫu chuẩn** — giống hệt cách các sổ kế toán và tờ khai 01/CNKD đang làm, mở file ra là thấy đúng biểu mẫu để nộp.
+- **Đúng quy định cho hộ nhỏ:** hộ có doanh thu năm từ 1 tỷ đồng trở xuống chỉ thông báo doanh thu, không phải khai số thuế phải nộp — phần mềm tự để trống các cột thuế đúng theo ghi chú của mẫu.
+- **Cách lên 2.49:** máy đang dùng bản 2.26 trở lên sẽ thấy thông báo có phiên bản mới **ngay trong phần mềm** — bấm **Cập nhật ngay** là xong, không phải tải lại file cài đặt. Khách mới tải file `PPOS.exe` của bản này. **Dữ liệu bán hàng giữ nguyên tuyệt đối.**
 
-Xem chi tiết: [Release v2.48](https://github.com/toolbox86/ppos-releases/releases/tag/v2.48)
+Xem chi tiết: [Release v2.49](https://github.com/toolbox86/ppos-releases/releases/tag/v2.49)
 
 
 ## 🆕 Có gì mới trong bản v2.47
